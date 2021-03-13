@@ -1,0 +1,11 @@
+name: ghostwriter
+channels:
+  - defaults
+dependencies:
+  - flask
+  - gunicorn
+  - tensorflow<2
+  - pip~=21.0.1
+  - pip:
+    - gpt-2-simple~=0.7
+prefix: /Users/mia/anaconda3/envs/ghostwriter
