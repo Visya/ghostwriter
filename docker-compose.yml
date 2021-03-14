@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  server:
+    build: ./server
+    volumes:
+      - ./server:/usr/src/app
+    ports:
+      - 5050:5050
